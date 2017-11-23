@@ -13,3 +13,4 @@ secondFragmentLen = len(secondFragment)
 print("the original DNA sequence is", dnaSequence)
 print("the first fragment is", firstFragment, "and is", firstFragmentLen ,"letters long")
 print("the second fragment is", secondFragment, "and is", secondFragmentLen,"letters long")
+
