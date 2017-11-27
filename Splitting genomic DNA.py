@@ -1,4 +1,4 @@
-#finding and opening the intial file
+#finding and opening the initial file
 DNAfile = open('/users/18bmartin/downloads/genomic_dna.txt', 'r')
 DNAsequence = DNAfile.read()
 
@@ -14,3 +14,8 @@ exonFile.write(exon1 + exon2)
 #creating a file for the intron
 intronFile = open('intronFile.txt', 'w')
 intronFile.write(intron)
+
+#close all the files
+DNAfile.close()
+exonFile.close()
+intronFile.close()
